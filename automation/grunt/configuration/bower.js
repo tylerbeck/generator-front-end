@@ -43,7 +43,7 @@ module.exports = {
         less: {
             options: {
                 dest: '<%= settings.source.less %>/<%= settings.vendorPath %>',
-                extensions: ['css'],
+                extensions: ['less','css'],
                 map: {
                     'normalize-css/normalize.css': 'normalize.less'
                 }
@@ -52,7 +52,7 @@ module.exports = {
         sass: {
             options: {
                 dest: '<%= settings.source.sass %>/<%= settings.vendorPath %>',
-                extensions: ['css'],
+                extensions: ['sass','css'],
                 map: {
                     'normalize-css/normalize.css': '_normalize.scss'
                 }
